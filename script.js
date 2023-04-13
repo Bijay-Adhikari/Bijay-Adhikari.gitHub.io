@@ -1,4 +1,18 @@
 
+//old code for ripple effect
+// $(document).ready(function() {
+//   $('.hero').ripples({
+//     resolution: 512,
+//     dropRadius: 20,
+//     perturbance: 0.04,
+//   });
+
+//   $('.hero').mouseenter(function(event) {
+//     $('.hero').ripples('drop', event.clientX, event.clientY, 20, 0.05);
+//   });
+// });
+
+//new code for ripple on mobile
 
 $(document).ready(function() {
   $('.hero').ripples({
@@ -7,8 +21,10 @@ $(document).ready(function() {
     perturbance: 0.04,
   });
 
-  $('.hero').mouseenter(function(event) {
-    $('.hero').ripples('drop', event.clientX, event.clientY, 20, 0.05);
+  $('.hero').on('click touchstart', function(event) {
+    var x = event.pageX || event.originalEvent.touches[0].pageX;
+    var y = event.pageY || event.originalEvent.touches[0].pageY;
+    $('.hero').ripples('drop', x, y, 20, 0.05);
   });
 });
 
