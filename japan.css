@@ -111,7 +111,7 @@
    
     .section{
         margin-top: 120px;
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
     .subsection__first {
         flex-wrap: wrap;
@@ -135,6 +135,7 @@
 
     .subsection__first-right{
         width: 100%;
+        
 
     }
      
@@ -147,6 +148,7 @@
     .subsection__second-left{
         width: 100%;
         order: 2;
+        text-align: center;
     }
 
     .subsection__second-right h2{
@@ -155,7 +157,9 @@
     }
     .subsection__second-right p{
         
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .subsection__second-right{

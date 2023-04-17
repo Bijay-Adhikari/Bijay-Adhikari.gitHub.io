@@ -3,7 +3,7 @@
 .classes {
     padding: 80px 20px;
     background-color: #303030;
-    width: 100%;
+    min-width: 100%;
   
   }
   
@@ -13,7 +13,8 @@
     text-align: center;
     color: #ff0000;
   }
-  
+
+
   .class-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -40,7 +41,7 @@
   
   .classes h3{
     color: #fff;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-style: italic;
     text-align: center;
   }
@@ -63,6 +64,7 @@
   @media screen and (max-width: 768px){
     .class-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    min-width: 100%;
    
 }
   }

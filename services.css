@@ -69,8 +69,12 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
   }
 
+  #services img{
+    width: 100%;
+  }
   .service h3 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -84,9 +88,13 @@
  
  
   @media (max-width: 768px) {
-    .services {
+    #services {
       height: auto;
-      /* margin-top: 50px; */
+      min-width: 100%;
+     
+    }
+    #services img{
+      width: 100%;
     }
     .parallax {
       height: 300px;

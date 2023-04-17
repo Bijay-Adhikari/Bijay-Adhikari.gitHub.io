@@ -2,13 +2,14 @@
  .hero {
     position: relative;
     height: 100vh;
-    background-image: url(img/nav-bg2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(img/nav-bg2-optimised.jpg);
+    background-size: contain;
+    background-position:center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
   }
   
   .hero h1 {
@@ -24,10 +25,13 @@
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-top: 1rem;
+    width: 90%;
+    margin: 2rem auto 0;
+    text-align: justify;
   }
   
   @media screen and (max-width: 768px) {
+    
     .hero h1 {
       font-size: 1.5rem;
       margin-top: -180px;
@@ -38,4 +42,5 @@
       font-size: 1rem;
       ;
     }
+  
   }

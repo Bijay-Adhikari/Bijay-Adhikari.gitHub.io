@@ -41,16 +41,16 @@ flex-shrink: 1;
       display: none;
     }
     .top-bar__item{
-      font-size: 10px;
-      padding: 2px 15px;
+      /* font-size: 7px; */
+      padding: 2px 10px;
       margin: 0 auto;
     }
     .top-bar__item i{
         display: inline-block;
-        padding: 0 5px;
+        padding: 0 2px;
     }
     .top-bar__item p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
   }
 /* Nav--start-----------------------*/
