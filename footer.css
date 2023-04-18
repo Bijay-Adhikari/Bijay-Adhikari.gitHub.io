@@ -8,7 +8,9 @@
     padding: 10px 0;
     text-align: center;
     width: 100%;
-    position: fixed;
+    margin-bottom: -3px;
+    position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
   }
   
@@ -59,11 +61,17 @@
   @media  screen and (max-width: 768px) {
 
     footer{
-        position: fixed;
+        /* position: fixed;
+        bottom: 0; */
+        position: sticky;
+        position: -webkit-sticky;
         bottom: 0;
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
+       
+
 
     }
     

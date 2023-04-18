@@ -17,7 +17,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     
   }
 
@@ -43,8 +43,8 @@
 
   .services h2 {
     grid-column: 1 / -1;
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
     text-align: center;
     color: #ff0000;
   }
@@ -54,8 +54,8 @@
     z-index: -1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 80px 20px;
+    gap: 1rem;
+    padding: 5rem 1.25rem;
     background-color: transparent;
   }
 
@@ -66,8 +66,8 @@
     align-items:center;
     text-align: center;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border-radius: 0.7rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     width: 100%;
   }
@@ -76,12 +76,12 @@
     width: 100%;
   }
   .service h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
   }
 
   .service p {
-    font-size: 18px;
+    font-size: 1.13rem;
     color: #666;
   }
 
@@ -100,11 +100,15 @@
       height: 300px;
     }
     
-    .container {
-      /* padding: 50px 20px; */
-      grid-template-columns: repeat(1, 1fr);
-    }
     
   }
+
+ 
+    .container {
+      grid-template-columns: repeat(1, 1fr); /* restore grid layout for larger screens */
+      padding: 5rem 1.25rem; /* restore padding for larger screens */
+    
+  }
+
 
 /* End of Services Section */

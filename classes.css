@@ -45,7 +45,7 @@
     font-style: italic;
     text-align: center;
   }
-  .class a {
+  .class a { 
     text-decoration: none;
   }
   
@@ -63,7 +63,7 @@
 
   @media screen and (max-width: 768px){
     .class-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     min-width: 100%;
    
 }
