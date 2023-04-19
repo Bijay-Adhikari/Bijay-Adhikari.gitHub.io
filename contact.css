@@ -125,7 +125,8 @@
 
    @media  screen and (max-width: 768px) {
     #contact{
-  flex-direction: column;
+     flex-direction: column;
+     padding:0px;
   
   
    }
