@@ -1,0 +1,47 @@
+ /* Default styles for hero section */
+ .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url(img/nav-bg2-optimised.jpg);
+    background-size: contain;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero h1 {
+    margin-top: -175px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    margin: 2rem auto 0;
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+     
+    .hero h1 {
+      font-size: 1.5rem;
+      margin-top: -250px;
+  
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      ;
+    }
+  
+  }
