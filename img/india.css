@@ -1,0 +1,223 @@
+@import "/universals.css";
+.section {
+    margin-top: 150px;
+    text-align: center;
+    padding: 0 1.4rem;
+  }
+  .section ul{
+    list-style: none;
+    /* font-size: 1.5rem; */
+    margin-top: 1.2rem;
+    font-weight:bold;
+    
+  }
+.section ul span{
+    font-size: 1.5rem;
+    
+
+}
+  .section ul li{
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight:normal;
+  }
+  .section ul li::before {
+    content: "✅";
+    display: inline-block;
+    margin-right: 0.2rem;
+    font-size: 1.2rem;
+    
+  }
+  .section ol{
+    text-align: left;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+  }
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .section-description {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    text-align: justify;
+   
+  }
+  
+  .subsection__first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .subsection__first h2,
+  .subsection__second h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+  }
+
+  .subsection__first p,
+  .subsection__second p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    
+  }
+
+  
+  .subsection__first-left {
+    width: 40%;
+  }
+  
+  .subsection__first-right {
+    width: 60%;
+  }
+  
+  .subsection__first-right img {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .subsection__second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .subsection__second-left {
+    width: 60%;
+  }
+  
+  .subsection__second-right {
+    width: 40%;
+  }
+  
+  .subsection__second-left img {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+  }
+
+
+  
+/* This section is for making text center */
+.center h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50% );
+    font-size: 2rem;
+    text-align: center;
+      
+      }
+    body{
+        height: 1000px;
+    }
+  
+  @media (max-width: 768px) {
+
+   
+    .section{
+        margin-top: 120px;
+        padding: 0 10px;
+    }
+    .subsection__first {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+    .subsection__first-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .subsection__first-left h2{
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+    .subsection__first-left p{
+        
+        font-size: 1.2rem;
+    }
+
+    .subsection__first-right{
+        width: 100%;
+
+    }
+     
+      .subsection__second {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+    .subsection__second-left{
+        width: 100%;
+        order: 2;
+    }
+
+    .subsection__second-right h2{
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+    .subsection__second-right p{
+        
+        font-size: 1.3rem;
+    }
+
+    .subsection__second-right{
+        margin-bottom: 20px;
+        width: 100%;
+        order: 1;
+
+    }
+
+    .section ul{
+      list-style: none;
+      /* font-size: 1.5rem; */
+      margin-top: 1.2rem;
+      font-weight:bold;
+      
+    }
+  .section ul span{
+      font-size: 1.5rem;
+      
+  
+  }
+    .section ul li{
+      text-align: left;
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      font-weight:normal;
+    }
+    .section ul li::before {
+      content: "✅";
+      display: inline-block;
+      margin-right: 0.2rem;
+      font-size: 1rem;
+      
+    }
+    .section ol{
+      text-align: left;
+      font-size: 1.1rem;
+      padding-left: 1.5rem;
+    }
+
+    
+.subsection-right-title{
+  font-size: 1.3rem;
+}
+.subsection-right-text{
+  font-size: 1.3rem;
+}
+
+  }
